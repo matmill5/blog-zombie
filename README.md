@@ -9,3 +9,7 @@ React
 Parcel
 Storybook
 NPM
+
+## Package Creation Guided By
+
+https://prateeksurana.me/blog/react-component-library-using-storybook-6/#compiling-the-library-using-rollup
