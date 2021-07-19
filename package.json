@@ -12,7 +12,7 @@
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-package" :"rollup -c",
+    "build-package" :"rollup -c"
   },
   "repository": {
     "type": "git",
