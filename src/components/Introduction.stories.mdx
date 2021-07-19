@@ -2,6 +2,7 @@ import { Meta } from "@storybook/addon-docs";
 import Blog from "../components/Blog";
 import BlogPreviewTile from "../components/BlogPreviewTile";
 import BlogPage from "../components/BlogPage";
+import { blogPosts as testBlogPosts } from "../../globalConstants.tsx";
 
 <Meta title="Components/Introduction" />
 
@@ -19,6 +20,20 @@ Blog Zombie subscribes to the idea of designing UIs with [**component-driven**](
 
 # Blog Zombie Components
 
-<Blog />
+### Blog Preview Tile
+
+A preview tile for a blog post.
+
 <BlogPreviewTile />
-<BlogPage />
+
+### Blog Page
+
+A page for a blog post.
+
+<BlogPage blogPosts={testBlogPosts} />
+
+### Blog Posts
+
+An overview, grid, of blog posts.
+
+<Blog blogPosts={testBlogPosts} />

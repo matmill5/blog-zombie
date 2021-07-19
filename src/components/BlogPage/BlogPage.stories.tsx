@@ -2,6 +2,7 @@ import React from "react";
 import { Story, Meta } from "@storybook/react";
 import BlogPage from "./BlogPage";
 import { BlogPageProps } from "./types";
+import { blogPosts as testBlogPosts } from "../../../globalConstants";
 
 // BlogPage.stories.tsx
 //https://storybook.js.org/docs/react/writing-stories/introduction
@@ -16,7 +17,7 @@ const Template: Story<BlogPageProps> = (args) => <BlogPage {...args} />;
 
 // Each story then reuses that template
 export const BlogPagePrimary = Template.bind({});
-BlogPagePrimary.args = { id: "blog page" };
+BlogPagePrimary.args = { id: "blog page", blogPosts: testBlogPosts };
 
 export const BlogPageSecondary = Template.bind({});
 BlogPageSecondary.args = {

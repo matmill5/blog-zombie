@@ -9,7 +9,7 @@ export interface BlogPostMetaData {
 
 export interface BlogPost {
   blogPostMeta: BlogPostMetaData;
-  content: string;
+  content?: string;
 }
 
 export interface BlogProps {

@@ -12,14 +12,18 @@ const BlogPage: FC<BlogPageProps> = ({ ...props }) => {
   return (
     <BlogPageContainer>
       {props.blogPosts.map((post) => {
-        <BlogPreviewTile
-          title={post.blogPostMeta.title}
-          subtitle={post.blogPostMeta.subtitle}
-          bannerImage={post.blogPostMeta.bannerImage}
-          author={post.blogPostMeta.author}
-          dateCreated={post.blogPostMeta.dateCreated}
-          url={post.blogPostMeta.url}
-        ></BlogPreviewTile>;
+        return (
+          <>
+            <BlogPreviewTile
+              title={post.blogPostMeta.title}
+              subtitle={post.blogPostMeta.subtitle}
+              bannerImage={post.blogPostMeta.bannerImage}
+              author={post.blogPostMeta.author}
+              dateCreated={post.blogPostMeta.dateCreated}
+              url={post.blogPostMeta.url}
+            ></BlogPreviewTile>
+          </>
+        );
       })}
     </BlogPageContainer>
   );
