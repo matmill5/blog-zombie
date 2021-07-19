@@ -13,7 +13,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build-package" :"rollup -c",
-    "build-static-webapp":"expo build:web"
   },
   "repository": {
     "type": "git",
