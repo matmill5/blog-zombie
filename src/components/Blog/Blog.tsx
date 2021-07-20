@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { BlogProps } from "./types";
 import styled from "styled-components";
 import BlogPreviewTile from "../BlogPreviewTile";
+import BlogPhotoPlaceholder from "../../assets/jpg/blog-banner-image-placeholder.jpg";
 
 const BlogContainer = styled.div`
   width: 100%;
@@ -16,7 +17,7 @@ const Blog: FC<BlogProps> = ({ ...props }) => {
           <BlogPreviewTile
             title={post.blogPostMeta.title}
             subtitle={post.blogPostMeta.subtitle}
-            bannerImage={post.blogPostMeta.bannerImage}
+            bannerImage={BlogPhotoPlaceholder}
             author={post.blogPostMeta.author}
             dateCreated={post.blogPostMeta.dateCreated}
             url={post.blogPostMeta.url}

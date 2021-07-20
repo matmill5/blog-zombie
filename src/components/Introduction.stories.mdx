@@ -3,6 +3,7 @@ import Blog from "../components/Blog";
 import BlogPreviewTile from "../components/BlogPreviewTile";
 import BlogPage from "../components/BlogPage";
 import { blogPosts as testBlogPosts } from "../../globalConstants.tsx";
+import BlogPhotoPlaceholder from "../assets/jpg/blog-banner-image-placeholder.jpg";
 
 <Meta title="Components/Introduction" />
 
@@ -24,7 +25,16 @@ Blog Zombie subscribes to the idea of designing UIs with [**component-driven**](
 
 A preview tile for a blog post.
 
-<BlogPreviewTile />
+A Blog Post About MongoDB
+
+<BlogPreviewTile
+  bannerImage={BlogPhotoPlaceholder}
+  title={"A Blog Post About MongoDB"}
+  subtitle={"Check out this cool, NoSQL, document-based, DB-system."}
+  author={"Matthew E. Miller"}
+  dateCreated={"07/20/2021"}
+  url={"./"}
+/>
 
 ### Blog Page
 
