@@ -3,7 +3,7 @@ import { Story, Meta } from "@storybook/react";
 import BlogPreviewTile from "./BlogPreviewTile";
 import { BlogPreviewTileProps } from "./types";
 import { blogPosts as testBlogPosts } from "../../../globalConstants";
-import BlogPhotoPlaceholder from "../../assets/jpg/blog-banner-image-placeholder.jpg";
+import BlogPhotoPlaceholder from "../../assets/jpeg/blog-banner-image-placeholder.jpeg";
 
 // BlogPreviewTile.stories.tsx
 //https://storybook.js.org/docs/react/writing-stories/introduction

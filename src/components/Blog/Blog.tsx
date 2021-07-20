@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { BlogProps } from "./types";
 import styled from "styled-components";
 import BlogPreviewTile from "../BlogPreviewTile";
-import BlogPhotoPlaceholder from "../../assets/jpg/blog-banner-image-placeholder.jpg";
+import BlogPhotoPlaceholder from "../../assets/jpeg/blog-banner-image-placeholder.jpeg";
 
 const BlogContainer = styled.div`
   width: 100%;
