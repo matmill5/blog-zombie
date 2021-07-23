@@ -4,7 +4,7 @@ Package of components for adding a blog to your SPA.
 
 ## Storybook
 
-[Component Preview](https://www.storybook.blog-zombie.com)
+[Component Preview](https://storybook.blog-zombie.com)
 
 ## Tech Stack
 
